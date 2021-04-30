@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { Router } from 'react-router-dom';
 import { history } from './utils/historyHandler';
 import Content from './components/Content';
