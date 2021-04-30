@@ -11,7 +11,7 @@ export const getAuth0Client = () => {
             domain: 'ADD VALUE HERE' || '',
             client_id: 'ADD VALUE HERE' || '',
             redirect_uri: 'http://localhost:3000/login',
-            audience: `https://ADD VALUE HERE/api/v2/`,
+            audience: `https://ADD VALUE HERE (same as auth0 domain)/api/v2/`,
             scope: "openid email profile read:current_user update:current_user_identities",
             cacheLocation: 'localstorage',
             useRefreshTokens: true
