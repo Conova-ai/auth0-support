@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting started with the login loop reproduction
 
 1. Clone this file.
 2. Go in the auth0-support folder and run `npm install`.
